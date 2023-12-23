@@ -1,5 +1,3 @@
-import { formatDate } from "../utils/dateUtils"
-
 export default function Card({ ideas }) {
     const formattedDate = (dateString) => {
         const dateParts = dateString.split(' ')[0].split('-');
