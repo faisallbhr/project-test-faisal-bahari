@@ -7,7 +7,8 @@ export default function Router() {
     return (
         <Routes>
             <Route path='/ideas' element={<Ideas />} />
-            <Route path='/*' element={<Blank />} />
+            <Route path='/' element={<Blank />} />
+            <Route path='*' element={<Blank />} />
         </Routes>
     )
 }
